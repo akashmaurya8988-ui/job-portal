@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Next.js build output
+frontend/.next/
+frontend/out/
+
+# Environment variables & Firebase secrets (CRITICAL)
+.env
+.env.local
+.env.development.local
+.env.production.local
+backend/serviceAccountKey.json
+*.json.key
+
+# Logs & OS files
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
